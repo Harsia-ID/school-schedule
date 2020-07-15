@@ -23,7 +23,7 @@ include "./config/header.php";
                             <?php
                             error_reporting(0);
                             $date = date("l");
-                            if ($date = "Monday") {
+                            if (date("l") == "Monday") {
                                 //JADWAL
                                 print "
     <tr>
@@ -43,7 +43,7 @@ include "./config/header.php";
     <td>Bahasa Indonesia</td>
 </tr>
     ";
-                            } else if ($date = "Tuesday") {
+                            } elseif (date("l") == "Tuesday") {
                                 //JADWAL
                                 echo "
     <tr>
@@ -62,7 +62,7 @@ include "./config/header.php";
     <td>09.30-11.00</td>
     <td>BTQ</td>
 </tr>";
-                            } else if ($date = "Wednesday") {
+                            } elseif (date("l") == "Wednesday") {
                                 //JADWAL
                                 echo "
     <tr>
@@ -81,7 +81,7 @@ include "./config/header.php";
     <td>09.30-11.00</td>
     <td>Bahasa Arab</td>
 </tr>";
-                            } else if ($date = "Thursday") {
+                            } elseif (date("l") == "Thursday") {
                                 //JADWAL
                                 echo "
     <tr>
@@ -100,7 +100,7 @@ include "./config/header.php";
     <td>09.30-11.00</td>
     <td>IPS</td>
 </tr>";
-                            } else if ($date = "Friday") {
+                            } elseif (date("l") == "Friday") {
                                 echo "
     <tr>
     <td>Jam</td>
@@ -118,7 +118,7 @@ include "./config/header.php";
     <td>09.30-11.00</td>
     <td>PKN</td>
 </tr>";
-                            } else if ($date = "Saturday") {
+                            } elseif (date("l") == "Saturday") {
                                 echo "Belum Ada Jadwal !";
                             } else {
                                 echo "Hari Ini Libur Gayzz";
