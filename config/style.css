@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+    font-family: "Roboto Condensed" !important;
+    background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/20/23/gd30Mk.jpg");
+    background-attachment: fixed !important;
+    background-position: left center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    /* text-shadow: 1px 1px 1px black; */
+}
+
+::selection {
+    color: #18ff65;
+}
+
+.bg-cy {
+    background-color: #3399ff !important;
+}
+
+.hs-1 {
+    font-size: 30px !important;
+    font-family: "Anton";
+}
+
+.hs-ver {
+    font-family: "Francois One";
+    transition: 0.3s;
+}
+
+.hs-ver:hover {
+    color: white !important;
+    transition: all 0.5s ease;
+}
+
+.jumbotron {
+    background-image: url("https://1.bp.blogspot.com/-t7AHjAw0Tyo/Xrfz2exwTuI/AAAAAAAAAJ4/65EAFY5seE4kntX1yYo1USv4gyfbe7Z2gCEwYBhgL/w1200-h630-p-k-no-nu/tempat%2Bbelajar%2Bcoding%2Bgratis%2Bonline%2Bterbaik.jpg");
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    color: white;
+    /* text-shadow: 1px 1px 1px black; */
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.card-header,
+.card-body,
+.card-footer,
+.card {
+    border: 1px solid white;
+}
+
+.card {
+    color: white !important;
+    background: url();
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+table,
+.table {
+    font-family: "Roboto Condensed" !important;
+    color: white !important;
+}
+
+tr:hover {
+    background-color: #000;
+}
+
+
+
+/* MEDIA - ONLY - LAYOUT - DO NOT DISTRUB */
+@media(max-width:375px) {
+    .card {
+        margin: 25px;
+    }
+
+    .jumbotron {
+        max-width: 100%;
+        padding-bottom: 50%;
+    }
+
+    .pd-1 {
+        text-align: center;
+        padding: 40% 0px 0px;
+    }
+}
+
+/* MINIMAL - LAYOUT */
+@media(min-width:400px) {
+    .card {
+        margin: 25px;
+    }
+
+    .jumbotron {
+        max-width: 100%;
+        padding-bottom: 50%;
+    }
+
+    .pd-1 {
+        text-align: center;
+        padding: 40% 0px 0px;
+    }
+}
+
+@media(min-width: 769px) {
+    .card {
+        margin: 25px;
+        /* padding-bottom: 10%; */
+    }
+
+    .jumbotron {
+        max-width: 100%;
+        padding-bottom: 28%;
+    }
+
+    .pd-1 {
+        text-align: center;
+        padding: 15% 0px 0px;
+    }
+}
+
+
+@media (min-width: 992px) {
+
+    .card {
+        margin: 10%;
+    }
+
+    .card {
+        margin: 35px;
+    }
+
+    .jumbotron {
+        max-width: 100%;
+        padding-bottom: 20%;
+    }
+
+    .pd-1 {
+        text-align: center;
+        padding: 10% 0px 0px;
+    }
+}
